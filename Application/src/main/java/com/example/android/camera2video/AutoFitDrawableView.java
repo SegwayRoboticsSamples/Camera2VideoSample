@@ -10,6 +10,7 @@ import android.graphics.PorterDuff;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.SurfaceTexture;
+import android.hardware.camera2.params.Face;
 import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
@@ -77,6 +78,9 @@ public class AutoFitDrawableView extends FrameLayout {
 
     public void drawRect(DTSPerson[] persons) {
         mOverlay.drawRect(persons);
+    }
+    public void drawRect(Face[] faces) {
+        mOverlay.drawRect(faces);
     }
 
     TextureView.SurfaceTextureListener mPrivateSurfaceTextureListener = new TextureView.SurfaceTextureListener() {
@@ -243,6 +247,38 @@ public class AutoFitDrawableView extends FrameLayout {
             });
         }
 
+        public void drawRect(final Face[] faces) {
+            mDrawingHandler.post(new Runnable() {
+                @Override
+                public void run() {
+                    mPreview.invalidate();
+                    if (mHolder.getSurface().isValid()) {
+                        final Canvas canvas = mHolder.lockCanvas();
+
+                        if (canvas != null) {
+                            canvas.drawColor(Color.TRANSPARENT, PorterDuff.Mode.CLEAR);
+                            canvas.drawColor(Color.TRANSPARENT);
+                            for (Face face : faces) {
+
+                                RectF faceRangeRectF = transformRect(calculateFaceRange(face.getBounds()));
+                                drawPersonRect(canvas,paint,faceRangeRectF);
+                                paint.setColor(Color.RED);
+                                paint.setTextSize(20);
+                                paint.setStrokeWidth(1.5f);
+                                canvas.drawText("id=" + face.getId(), faceRangeRectF.left, faceRangeRectF.top-15, paint);
+                                paint.setColor(Color.GREEN);
+                                paint.setStrokeWidth(3.0f);
+                            }
+
+                            mHolder.unlockCanvasAndPost(canvas);
+                            mDrawingHandler.removeMessages(MyHandle.CLEAR);
+                            mDrawingHandler.sendEmptyMessageDelayed(MyHandle.CLEAR, 1000);
+                        }
+                    }
+                }
+            });
+        }
+
         public void drawRect(final int id, final Rect rect) {
             mDrawingHandler.post(new Runnable() {
                 @Override
@@ -290,4 +326,40 @@ public class AutoFitDrawableView extends FrameLayout {
             }
         }
     }
+
+    private RectF calculateFaceRange(final Rect face) {
+        RectF rectF = FaceUtil.calculateFaceRect(face, getWidth(), getHeight(), 3264,
+                2448);
+        return rectF;
+    }
+
+    private RectF transformRect(RectF rectF) {
+
+        return FaceUtil.transformRect(rectF, getWidth(), getHeight());
+    }
+
+    private void drawPersonRect(Canvas canvas, Paint paint, RectF rect) {
+        final float lengthCoefficient = 6.0f;
+        float left = rect.left;
+        float right = rect.right;
+        float top = rect.top;
+        float bottom = rect.bottom;
+        float line = rect.width() < rect.height() ? rect.width() / lengthCoefficient : rect.height() / lengthCoefficient;
+        paint.setAlpha(255);
+        canvas.drawLine(left, top, left + line, top, paint);
+        canvas.drawLine(left, top, left, top + line, paint);
+
+        canvas.drawLine(right - line, top, right, top, paint);
+        canvas.drawLine(right, top, right, top + line, paint);
+
+        canvas.drawLine(left, bottom - line, left, bottom, paint);
+        canvas.drawLine(left, bottom, left + line, bottom, paint);
+
+        canvas.drawLine(right, bottom - line, right, bottom, paint);
+        canvas.drawLine(right - line, bottom, right, bottom, paint);
+
+        paint.setAlpha(50);
+        canvas.drawRect(rect, paint);
+    }
+
 }

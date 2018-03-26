@@ -2439,10 +2439,11 @@ containing a value of this type.
         public static final int description_info=0x7f050023;
         public static final int intro_message=0x7f050024;
         public static final int permission_request=0x7f050025;
-        public static final int record=0x7f050026;
+        public static final int product_not_support=0x7f050026;
+        public static final int record=0x7f050027;
         public static final int search_menu_title=0x7f050013;
         public static final int status_bar_notification_info_overflow=0x7f050014;
-        public static final int stop=0x7f050027;
+        public static final int stop=0x7f050028;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0700aa;

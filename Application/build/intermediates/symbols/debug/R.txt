@@ -804,10 +804,11 @@ int string camera_error 0x7f050022
 int string description_info 0x7f050023
 int string intro_message 0x7f050024
 int string permission_request 0x7f050025
-int string record 0x7f050026
+int string product_not_support 0x7f050026
+int string record 0x7f050027
 int string search_menu_title 0x7f050013
 int string status_bar_notification_info_overflow 0x7f050014
-int string stop 0x7f050027
+int string stop 0x7f050028
 int style AlertDialog_AppCompat 0x7f0700aa
 int style AlertDialog_AppCompat_Light 0x7f0700ab
 int style Animation_AppCompat_Dialog 0x7f0700ac

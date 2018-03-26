@@ -20,7 +20,6 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.ContentValues;
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.SurfaceTexture;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraCaptureSession;
@@ -29,15 +28,16 @@ import android.hardware.camera2.CameraDevice;
 import android.hardware.camera2.CameraManager;
 import android.hardware.camera2.CameraMetadata;
 import android.hardware.camera2.CaptureRequest;
+import android.hardware.camera2.CaptureResult;
+import android.hardware.camera2.TotalCaptureResult;
+import android.hardware.camera2.params.Face;
 import android.hardware.camera2.params.StreamConfigurationMap;
 import android.media.MediaRecorder;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.provider.MediaStore;
-import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.util.Log;
 import android.util.Size;
@@ -161,7 +161,7 @@ public class Camera2VideoFragment extends Fragment implements View.OnClickListen
                 if (person == null) {
                     return;
                 }
-                autoFitDrawableView.drawRect(person.getPoseRecognitionIndex(), person.getDrawingRect());
+//                autoFitDrawableView.drawRect(person.getPoseRecognitionIndex(), person.getDrawingRect());
 
                 if (isHeadBind) {
                     headPIDController.updateTarget(person.getTheta(), person.getDrawingRect(), 480);
@@ -515,16 +515,28 @@ public class Camera2VideoFragment extends Fragment implements View.OnClickListen
         }
         try {
             setUpCaptureRequestBuilder(mPreviewBuilder);
-            HandlerThread thread = new HandlerThread("CameraPreview");
-            thread.start();
-            mPreviewSession.setRepeatingRequest(mPreviewBuilder.build(), null, mBackgroundHandler);
+            mPreviewSession.setRepeatingRequest(mPreviewBuilder.build(), mFaceCaptureCallBack, mBackgroundHandler);
         } catch (CameraAccessException e) {
             e.printStackTrace();
         }
     }
 
+    private CameraCaptureSession.CaptureCallback mFaceCaptureCallBack = new CameraCaptureSession.CaptureCallback() {
+        @Override
+        public void onCaptureCompleted(CameraCaptureSession session, CaptureRequest request, TotalCaptureResult result) {
+            super.onCaptureCompleted(session, request, result);
+            Face[] faces = result.get(CaptureResult.STATISTICS_FACES);// detected face array
+
+            if (faces != null && faces.length > 0) {
+                autoFitDrawableView.drawRect(faces);
+            }
+        }
+
+    };
+
     private void setUpCaptureRequestBuilder(CaptureRequest.Builder builder) {
         builder.set(CaptureRequest.CONTROL_MODE, CameraMetadata.CONTROL_MODE_AUTO);
+        builder.set(CaptureRequest.STATISTICS_FACE_DETECT_MODE, CameraMetadata.STATISTICS_FACE_DETECT_MODE_FULL);
     }
 
 
@@ -636,7 +648,7 @@ public class Camera2VideoFragment extends Fragment implements View.OnClickListen
             Toast.makeText(activity, "Video saved: " + mNextVideoAbsolutePath,
                     Toast.LENGTH_SHORT).show();
             Logger.e(TAG, "Video saved: " + mNextVideoAbsolutePath);
-            insertVideoToMediaStore(getActivity(),mNextVideoAbsolutePath, System.currentTimeMillis(),640,480,0);
+            insertVideoToMediaStore(getActivity(), mNextVideoAbsolutePath, System.currentTimeMillis(), 640, 480, 0);
 
         }
         mNextVideoAbsolutePath = null;

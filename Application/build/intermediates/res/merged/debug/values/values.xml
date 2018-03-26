@@ -450,6 +450,7 @@
         
     </string>
     <string name="permission_request">This sample needs permission for camera and audio recording.</string>
+    <string name="product_not_support">Product not support this feature</string>
     <string name="record">Record</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
