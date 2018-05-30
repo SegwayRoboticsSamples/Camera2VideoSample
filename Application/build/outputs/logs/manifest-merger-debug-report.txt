@@ -15,7 +15,7 @@ ADDED from /Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application
 		ADDED from /Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:17:11-69
 uses-permission#android.permission.CAMERA
 ADDED from /Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:24:5-64
-MERGED from [com.segway.robot:visionsdk:0.6.246] /Users/jacob/.android/build-cache/4ff75d1fb713ea26f1ea88bbe14eb08ff5265af6/output/AndroidManifest.xml:13:5-65
+MERGED from [com.segway.robot:visionsdk:0.6.408] /Users/jacob/.android/build-cache/3e100d34be96d3600e935698f1425d097b5b9417/output/AndroidManifest.xml:13:5-65
 	android:name
 		ADDED from /Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:24:22-62
 uses-permission#android.permission.RECORD_AUDIO
@@ -24,7 +24,7 @@ ADDED from /Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application
 		ADDED from /Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:25:22-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:26:5-80
-MERGED from [com.segway.robot:sdkbase:0.1.59] /Users/jacob/.android/build-cache/3b87e166d25d3aec76acf18fee8d37410f1fa1a1/output/AndroidManifest.xml:11:5-81
+MERGED from [com.segway.robot:sdkbase:0.1.65] /Users/jacob/.android/build-cache/afa4dfd61d2e9714cafefc167b21302d7f9f1d52/output/AndroidManifest.xml:11:5-81
 	android:name
 		ADDED from /Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:26:22-78
 application
@@ -41,11 +41,11 @@ MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/jacob/.a
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jacob/.android/build-cache/59c9cdf97bc58653effea2e94690ed9ae167bb1e/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] /Users/jacob/.android/build-cache/badbd28445980fdcd99b146351147e5c5a567a31/output/AndroidManifest.xml:25:5-29:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jacob/.android/build-cache/f182b618a65b362696446ff3ae5ea17e8e66ef99/output/AndroidManifest.xml:24:5-28:19
-MERGED from [com.segway.robot:basic-class:0.5.183] /Users/jacob/.android/build-cache/1b671f504a256a1275e9d351b7b4488413c50b48/output/AndroidManifest.xml:11:5-15:19
+MERGED from [com.segway.robot:basic-class:0.6.65] /Users/jacob/.android/build-cache/290c473b978d7a8999c9302f5033976f3766b1df/output/AndroidManifest.xml:11:5-15:19
 	android:label
 		ADDED from /Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:29:9-41
 	android:supportsRtl
-		ADDED from [com.segway.robot:basic-class:0.5.183] /Users/jacob/.android/build-cache/1b671f504a256a1275e9d351b7b4488413c50b48/output/AndroidManifest.xml:14:9-35
+		ADDED from [com.segway.robot:basic-class:0.6.65] /Users/jacob/.android/build-cache/290c473b978d7a8999c9302f5033976f3766b1df/output/AndroidManifest.xml:14:9-35
 	android:allowBackup
 		ADDED from /Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:28:18-44
 	android:icon
@@ -82,10 +82,10 @@ MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/jacob/.a
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/jacob/.android/build-cache/59c9cdf97bc58653effea2e94690ed9ae167bb1e/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:26.1.0] /Users/jacob/.android/build-cache/badbd28445980fdcd99b146351147e5c5a567a31/output/AndroidManifest.xml:21:5-23:58
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/jacob/.android/build-cache/f182b618a65b362696446ff3ae5ea17e8e66ef99/output/AndroidManifest.xml:20:5-22:41
-MERGED from [com.segway.robot:visionsdk:0.6.246] /Users/jacob/.android/build-cache/4ff75d1fb713ea26f1ea88bbe14eb08ff5265af6/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.segway.robot:headsdk:0.6.364] /Users/jacob/.android/build-cache/b31d8156690b07c88d48da3cae772216a3f53736/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.segway.robot:basic-class:0.5.183] /Users/jacob/.android/build-cache/1b671f504a256a1275e9d351b7b4488413c50b48/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.segway.robot:sdkbase:0.1.59] /Users/jacob/.android/build-cache/3b87e166d25d3aec76acf18fee8d37410f1fa1a1/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.segway.robot:visionsdk:0.6.408] /Users/jacob/.android/build-cache/3e100d34be96d3600e935698f1425d097b5b9417/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.segway.robot:headsdk:0.6.562] /Users/jacob/.android/build-cache/631cec2a0b0eebe320b6e0a8073ed713a2cb3c39/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.segway.robot:basic-class:0.6.65] /Users/jacob/.android/build-cache/290c473b978d7a8999c9302f5033976f3766b1df/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.segway.robot:sdkbase:0.1.65] /Users/jacob/.android/build-cache/afa4dfd61d2e9714cafefc167b21302d7f9f1d52/output/AndroidManifest.xml:7:5-9:41
 MERGED from [com.segway.robot:support-lib:1.1.2] /Users/jacob/.android/build-cache/0664228530bd592c2c06b4c44d0e8cc4c289086f/output/AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v13:26.1.0] /Users/jacob/.android/build-cache/ea251395f394c9cf98f965d0a479c4f037afe335/output/AndroidManifest.xml:23:9-52
@@ -118,8 +118,8 @@ ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/jacob/.android/build-ca
 	android:name
 		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/jacob/.android/build-cache/f182b618a65b362696446ff3ae5ea17e8e66ef99/output/AndroidManifest.xml:26:13-58
 uses-feature#android.hardware.camera
-ADDED from [com.segway.robot:visionsdk:0.6.246] /Users/jacob/.android/build-cache/4ff75d1fb713ea26f1ea88bbe14eb08ff5265af6/output/AndroidManifest.xml:11:5-60
+ADDED from [com.segway.robot:visionsdk:0.6.408] /Users/jacob/.android/build-cache/3e100d34be96d3600e935698f1425d097b5b9417/output/AndroidManifest.xml:11:5-60
 	android:name
-		ADDED from [com.segway.robot:visionsdk:0.6.246] /Users/jacob/.android/build-cache/4ff75d1fb713ea26f1ea88bbe14eb08ff5265af6/output/AndroidManifest.xml:11:19-57
+		ADDED from [com.segway.robot:visionsdk:0.6.408] /Users/jacob/.android/build-cache/3e100d34be96d3600e935698f1425d097b5b9417/output/AndroidManifest.xml:11:19-57
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from /Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:17:1-43:12 reason: com.segway.robot.sdk.base requested WRITE_EXTERNAL_STORAGE

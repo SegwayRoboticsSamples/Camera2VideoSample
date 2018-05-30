@@ -106,24 +106,24 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="com.segway.robot:visionsdk-0.6.408" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-media-compat-26.1.0" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-compat-26.1.0" level="project" />
     <orderEntry type="library" exported="" name="com.segway.robot:support-lib-1.1.2" level="project" />
     <orderEntry type="library" exported="" name="android.arch.lifecycle:common:1.0.0@jar" level="project" />
-    <orderEntry type="library" exported="" name="com.segway.robot:headsdk-0.6.364" level="project" />
+    <orderEntry type="library" exported="" name="com.segway.robot:headsdk-0.6.562" level="project" />
     <orderEntry type="library" exported="" name="android.arch.core:common:1.0.0@jar" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-fragment-26.1.0" level="project" />
-    <orderEntry type="library" exported="" name="com.segway.robot:basic-class-0.5.183" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-vector-drawable-26.1.0" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-v4-26.1.0" level="project" />
     <orderEntry type="library" exported="" name="android.arch.lifecycle:runtime-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:appcompat-v7-26.1.0" level="project" />
-    <orderEntry type="library" exported="" name="com.segway.robot:sdkbase-0.1.59" level="project" />
+    <orderEntry type="library" exported="" name="com.segway.robot:basic-class-0.6.65" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:animated-vector-drawable-26.1.0" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-annotations:26.1.0@jar" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-v13-26.1.0" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-core-utils-26.1.0" level="project" />
-    <orderEntry type="library" exported="" name="com.segway.robot:visionsdk-0.6.246" level="project" />
+    <orderEntry type="library" exported="" name="com.segway.robot:sdkbase-0.1.65" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-core-ui-26.1.0" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:cardview-v7-26.1.0" level="project" />
   </component>
