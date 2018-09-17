@@ -2,202 +2,184 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/0664228530bd592c2c06b4c44d0e8cc4c289086f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="ad9050c2dd1118c699c553e8b7bbfe3c240bc69f">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1631b80e6bb0f386d5622741f918c322de1c93f2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="beaacd0849a62ae2279fa2a31c79e438c4ff5d86">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_232808caabb2c530c3740a84f46ac36c879575e3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/ea251395f394c9cf98f965d0a479c4f037afe335/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="80d9ff49e99ff481062ea190b43e8d6bdffd4ddc">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_29f9d90938a26d2d9fa87fd7c4cdd1d40eefef2b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/9471aee4c6f0be228899c3d59599472a758f649b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8ed55587b2faadc4c99d70c5a7a216d550e9cebf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.0.0_792d1728e7cf90c327efcd569ee6b7565f3e39f5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/7665877e064950f36b683298f617c4f480855ab4/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_49829a7c23763c597ac8885dd3bbafc49ca84dc4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/8276f9d0593171020583747db08c78e324e68c95/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_493e08e0172a94c9e3a175202da3bf7f1990ac6d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/badbd28445980fdcd99b146351147e5c5a567a31/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dd683b51afe5c63bf58c46d8fd24dab9615f8804/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/33a94ec74b6eeb27c13196d26f7f6edf5ee61197/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_72367aa906ab46baba5e08ad6b63866017136cb7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/fc1d8c03a5c7579f8acb0cfd78dd87a581927313/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/ab7b05d521ccea2c1d1202dfa9e781c0cdf771a9/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bbbb247360f2e8f69e44eaf4358447c2d8ed2dcd/classes.dex" />
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_e7c47170bb69910b6f21ba6d90015c000d3feaf8.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/0247242bf47401dcc8ff158aa0a65ec27a6af042/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_81bbf1129bcfa080e839dc5aa034dbd7fc62ee5f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2188de4118eb2db3fffcfe41079bc659555488f0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/290c473b978d7a8999c9302f5033976f3766b1df/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3672815369410cb77141f78bbabd2f2a2357aac0">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_215d10ca3f0bd06de4d2d76d74e23f18470d7e9a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/f799fefa078bed48cb1d6aa332d4b80c11dafd6e/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_882f2b2b76b25f51d5b410c7af257d4d8b6f0d11/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.0.0_91056190c87e5615b3fe4d8ef99ce507992b7b0b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/59c9cdf97bc58653effea2e94690ed9ae167bb1e/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="508f50705b4fde51a16259f29c854201a3044516">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b01de169a9eda6affcaae758ab03c1dfe1e1af1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.1.0_c27706918ca223dba4710ce64efa9bde2eec85d9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/3e100d34be96d3600e935698f1425d097b5b9417/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="11b34e2989aa3cf473471e5ff21812aa5e9bd324">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_078b68c31192be1ef9da568d89cb0c3e75e67d32/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/afa4dfd61d2e9714cafefc167b21302d7f9f1d52/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="09d3cb3349b9a35e7b266edd922d3aebb0a87d6f">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c497d3e2d7f1d950fb302f9d3361dae4f4ebb332/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/631cec2a0b0eebe320b6e0a8073ed713a2cb3c39/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="af9c18f260fb3c54af3c5cd8d3f800edfad220c7">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6bff7b28b5d54ab1b7bd87ae352bb3b13020891f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/cc3e3357a400dc9a42401283b2c410173aee148d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cd98773fea70118e14187942357453469cbc460d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jacob/.android/build-cache/f182b618a65b362696446ff3ae5ea17e8e66ef99/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/154cad7e8992a7681d148fd1791bc255103cc79e/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
-        <dex dex="/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a0c6be41d6613b8ef58a568baf9c6a2969ed3b03/classes.dex" />
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_69b1bfe2bbd52eb0762ab32eb6f46839e6842446.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/b176099b2ba2891deec6eb5385b45f027dea6926/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_d3e23b1dee00421845ae59050a169a40db365ed5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/d8129a20a38b2a0e5596144573baa93233f1a4d3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_f843301320de11345e40a1be6250657a4b84f8cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/7891bdd2dfe4098075c0eafc60034b4af22a0aba/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_505d6e4ddbd917a402fe355b68e7f343777e533d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/da9c76991015a22682fc5b6ca805857962b81ecd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_c42c677eb587fd99788288bf12116bc362585435.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/common-1.0.0_792d1728e7cf90c327efcd569ee6b7565f3e39f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/05fdf6ec49d60ae418fa2b5336890ae2606d9024/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_71c587be95de2be59e11ea5345b42ad89c911b64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/6e8fb282ab08d346c645c5ecd087b85ad1c97256/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_f4ab67d3a1a6907d7fe04b341c7f230795e8e9b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/1b69fa600f1ab1d8750aa151b51f7350b0f513d0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_5b0393025e32179a9d30631b3abaf871ca835efc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/fd984b347c84e325e9258e128e51cc93010745ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_e602aed373c43f77aae1899c183155ce0f90fb86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/6dc5f80117bd02c9207a8855d171e14e1b0470c7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ad9050c2dd1118c699c553e8b7bbfe3c240bc69f">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_a4359429349646b7325c158b4b7e63656d36192b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/common-1.0.0_91056190c87e5615b3fe4d8ef99ce507992b7b0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_c27706918ca223dba4710ce64efa9bde2eec85d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/4560680c450a4d19cb7722912c2f6593c147aa68/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="80d9ff49e99ff481062ea190b43e8d6bdffd4ddc">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_d478c93040e2b57ade13f1b8914cfd3228cc13fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/d249032bf0f8d0462d9c98bdb704e8bbd03a3bcb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="81f597bd5a472b06afe4edf4d36fa8aa81535f7c">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_37b80633f16c2662034a2fbe1e51220c41f6991a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/50d23e082bb871e9049fd3f75307a839a12440e7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_2312dc7e7d087ddf87e010c103f2d15f0f4ec90c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/3778d332524170bec477bcf042709499ed373d34/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3672815369410cb77141f78bbabd2f2a2357aac0">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_945ee0134e4ef92e5db9820f9c90804bc2334c93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/3e561e9c041aef2fd24bbbe6b32a52364a0a458e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="86fd62e77b48f804d94bacd5a7053a9328c3158d">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_ce02b66b02fc6cc4dc90339b070aaf2bb7bccc4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacob/.android/build-cache/3a5adfa5c825de938d3f12c4c6625bdc284616e6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9d8172362c2efb74a0f1cc10d6d8aad9c49deff1">
+        <dex dex="/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/pre-dexed/debug/classes_f3694edaebeb15bd01f5d907acd21afc765a9253.jar" />
     </item>
 
 </items>

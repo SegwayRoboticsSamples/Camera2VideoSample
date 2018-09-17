@@ -20,7 +20,7 @@
 *.class
 
 #secret
-apk/
+apk/gi
 
 # Generated files
 bin/

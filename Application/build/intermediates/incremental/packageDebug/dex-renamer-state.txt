@@ -1,7 +1,4 @@
-#Mon Mar 26 13:41:31 CST 2018
-base.0=/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_232808caabb2c530c3740a84f46ac36c879575e3
-renamed.1=classes2.dex
+#Mon Sep 17 20:28:07 CST 2018
+base.0=/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.1=/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2188de4118eb2db3fffcfe41079bc659555488f0/classes.dex
-base.1=/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2188de4118eb2db3fffcfe41079bc659555488f0
-file.0=/Users/jacob/Desktop/zipFiles/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_232808caabb2c530c3740a84f46ac36c879575e3/classes.dex
+file.0=/Users/jacob/project/github_demos/android-Camera2Video-master/Application/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
